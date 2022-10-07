@@ -1,0 +1,2023 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 9, 2022 11:26:30 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@MyRegression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User could register with valid data</p>
+            <p class="text-sm">
+              <span>11:26:37 PM</span> / <span>00:00:26:253</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User could register with valid data</h5>
+<span class='badge badge-success'>10.09.2022 11:26:37 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:03 PM</span>
+<span class='badge badge-default'>00:00:26:253</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>user registers with valid data.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_navigates_to_registration_page()">
+                <span>And user navigates to registration page.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_press_on_male_checkbox()">
+                <span>When user press on male checkbox.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_first_name()">
+                <span>And user enters valid first name.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_last_name()">
+                <span>And user enters valid last name.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_select_valid_date_of_birth()">
+                <span>And user select valid date of birth.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_email_address()">
+                <span>And user enters valid email address.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_password()">
+                <span>And user enters valid password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_reenter_valid_password()">
+                <span>And user reenter valid password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_clicks_on_register_button()">
+                <span>And user clicks on register button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_could_register_successfully()">
+                <span>Then user could register successfully.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_returned_to_register_result_webpage()">
+                <span>And user returned to register result webpage.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>user registers with invalid password.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_navigates_to_registration_page()">
+                <span>And user navigates to registration page.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_press_on_male_checkbox()">
+                <span>When user press on male checkbox.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_first_name()">
+                <span>And user enters valid first name.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_last_name()">
+                <span>And user enters valid last name.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_select_valid_date_of_birth()">
+                <span>And user select valid date of birth.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_valid_email_address()">
+                <span>And user enters valid email address.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_enters_invalid_password()">
+                <span>And user enters invalid password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_reenter_invalid_password()">
+                <span>And user reenter invalid password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_clicks_on_register_button()">
+                <span>And user clicks on register button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D01_Registration.user_could_not_register_successfully()">
+                <span>Then user could not register successfully.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">user should be able to login to the website.</p>
+            <p class="text-sm">
+              <span>11:27:03 PM</span> / <span>00:00:11:245</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">user should be able to login to the website.</h5>
+<span class='badge badge-success'>10.09.2022 11:27:03 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:15 PM</span>
+<span class='badge badge-default'>00:00:11:245</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>user login with valid data (valid email & password).</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.navigates_to_login_page()">
+                <span>And navigates to login page.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_enters_valid_login_email()">
+                <span>When user enters valid login email.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_enters_valid_login_password()">
+                <span>And user enters valid login password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_press_on_login_button()">
+                <span>And user press on login button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_could_login_successfully()">
+                <span>Then user could login successfully.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.returned_to_home_page_of_the_website()">
+                <span>And returned to home page of the website.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>user login with invalid data (invalid email & password).</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.navigates_to_login_page()">
+                <span>And navigates to login page.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_enters_invalid_login_email()">
+                <span>When user enters invalid login email.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_enters_invalid_login_password()">
+                <span>And user enters invalid login password.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_press_on_login_button()">
+                <span>And user press on login button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D02_Login.user_could_not_login_successfully()">
+                <span>Then user could not login successfully.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User could reset his/her password successfully</p>
+            <p class="text-sm">
+              <span>11:27:15 PM</span> / <span>00:00:02:957</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User could reset his/her password successfully</h5>
+<span class='badge badge-success'>10.09.2022 11:27:15 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:18 PM</span>
+<span class='badge badge-default'>00:00:02:957</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>user enters a valid registered email address.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_navigates_to_forget_password_webpage()">
+                <span>And user navigates to forget password webpage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_enters_a_valid_email_address()">
+                <span>When user enters a valid email address.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_press_on_recover_button()">
+                <span>And user press on recover button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_could_reset_password_successfully()">
+                <span>Then user could reset password successfully.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>user enters invalid not registered email address.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_navigates_to_forget_password_webpage()">
+                <span>And user navigates to forget password webpage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_enters_an_invalid_email_address()">
+                <span>When user enters an invalid email address.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_press_on_recover_button()">
+                <span>And user press on recover button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D03_resetPassword.user_should_not_be_able_to_reset_password()">
+                <span>Then user should not be able to reset password.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged User could search for any product</p>
+            <p class="text-sm">
+              <span>11:27:18 PM</span> / <span>00:00:01:125</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged User could search for any product</h5>
+<span class='badge badge-success'>10.09.2022 11:27:18 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:19 PM</span>
+<span class='badge badge-default'>00:00:01:125</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>logged user should be able to search for any product.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D04_search.user_users_the_search_text_field_and_enters_lenovo()">
+                <span>And user uses the search text field and enters lenovo.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D04_search.user_clicks_on_the_search_button()">
+                <span>Then user clicks on the search button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D04_search.user_redirected_to_a_search_webpage_with_the_textEntered()">
+                <span>And user redirected to a search webpage with the text entered.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged User could switch between currencies US-Euro</p>
+            <p class="text-sm">
+              <span>11:27:19 PM</span> / <span>00:00:07:216</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged User could switch between currencies US-Euro</h5>
+<span class='badge badge-success'>10.09.2022 11:27:19 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:26 PM</span>
+<span class='badge badge-default'>00:00:07:216</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="56"><span class="badge log pass-bg mr-2">Pass</span>logged user should be able to change currency from US Dollars to Euro & back.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D04_search.user_users_the_search_text_field_and_enters_lenovo()">
+                <span>And user uses the search text field and enters lenovo.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D04_search.user_clicks_on_the_search_button()">
+                <span>And user clicks on the search button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.user_press_on_currency_list()">
+                <span>And user press on currency list.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.user_chooses_Euro_currency()">
+                <span>And user chooses Euro currency.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.item_price_changes_to_euros()">
+                <span>Then item price changes to Euros.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.user_press_on_currency_list()">
+                <span>And user press on currency list.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.user_chooses_USD_currency()">
+                <span>And user chooses USD currency.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D05_currencyChange.item_price_changes_to_USD()">
+                <span>Then item price changes to USD.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="65"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could select different Categories</p>
+            <p class="text-sm">
+              <span>11:27:26 PM</span> / <span>00:00:01:670</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged user could select different Categories</h5>
+<span class='badge badge-success'>10.09.2022 11:27:26 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:28 PM</span>
+<span class='badge badge-default'>00:00:01:670</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>logged user could select category (Computers) then subcategory (Desktops)</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Desktops_option()">
+                <span>And user press on Desktops option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.webpage_redirects_to_Desktops_subcategory()">
+                <span>Then webpage redirects to Desktops subcategory.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.webpage_shows_a_Desktop_computer()">
+                <span>And webpage shows a Desktop computer.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="71"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could filter with color</p>
+            <p class="text-sm">
+              <span>11:27:28 PM</span> / <span>00:00:01:701</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged user could filter with color</h5>
+<span class='badge badge-success'>10.09.2022 11:27:28 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:27:29 PM</span>
+<span class='badge badge-default'>00:00:01:701</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>logged user could filter with red colour in Shoes Subcategory.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D07_filterWithColour.user_press_on_Apparel_from_homepage()">
+                <span>And user press on Apparel from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D07_filterWithColour.user_press_on_shoes_subcategory()">
+                <span>And user press on Shoes subcategory.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D07_filterWithColour.user_press_on_red_checkbox()">
+                <span>And user press on red checkbox.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D07_filterWithColour.userGetsShoesOptionsWithRedColour()">
+                <span>Then user gets Shoes options with red colour.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="77"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could select different tags.</p>
+            <p class="text-sm">
+              <span>11:27:29 PM</span> / <span>00:00:34:773</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged user could select different tags.</h5>
+<span class='badge badge-success'>10.09.2022 11:27:29 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:28:04 PM</span>
+<span class='badge badge-default'>00:00:34:773</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=77</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>logged user could select different tags.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.user_press_on_awesome_tag_option()">
+                <span>And user press on awesome tag option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.webpage_redirect_to_products_tagged_with_awesome()">
+                <span>Then webpage redirect to products tagged with awesome.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.text_field_containing_products_tagged_with_awesome_shown()">
+                <span>And text field containing products tagged with awesome shown.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.user_press_on_cool_tag_option()">
+                <span>Then user press on cool tag option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.webpage_redirect_to_products_tagged_with_cool()">
+                <span>And webpage redirect to products tagged with cool.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D08_Tags.text_field_containing_products_tagged_with_cool_shown()">
+                <span>And text field containing products tagged with cool shown.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="86"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could add different products to Shopping cart.</p>
+            <p class="text-sm">
+              <span>11:28:04 PM</span> / <span>00:00:45:680</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged user could add different products to Shopping cart.</h5>
+<span class='badge badge-success'>10.09.2022 11:28:04 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:28:50 PM</span>
+<span class='badge badge-default'>00:00:45:680</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=86</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="87"><span class="badge log pass-bg mr-2">Pass</span>Logged user add 2 products to shopping cart</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Desktops_option()">
+                <span>And user press on Desktops option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_add_to_cart_on_2nd_product_choice_twice()">
+                <span>And user press add to cart on 2nd product choice twice.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.product_has_been_added_to_cart_message_displayed()">
+                <span>Then product has been added to cart message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_add_to_cart_on_the_3rd_product_choice()">
+                <span>And user press add to cart on the 3rd product choice.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.product_has_been_added_to_cart_message_displayed()">
+                <span>Then product has been added to cart message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_on_shopping_cart_in_header()">
+                <span>And user press on shopping cart in header.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.webpage_redirect_to_shopping_cart()">
+                <span>Then webpage redirect to shopping cart.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.second_item_choice_is_displayed()">
+                <span>And 2nd product choice is displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.third_item_choice_is_displayed()">
+                <span>And 3rd product choice is displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_changes_quantity_of_the_2nd_item()">
+                <span>Then user changes quantity of the 2nd product to 5 pieces.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_on_update_shopping_cart_button()">
+                <span>And user press on update shopping cart button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.item_subtotal_changes()">
+                <span>Then product subtotal changes.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_on_remove_button_of_2nd_item()">
+                <span>Then user press on remove button of 2nd product.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_on_update_shopping_cart_button()">
+                <span>And user press on update shopping cart button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.cart_total_changes_after_removal_of_2nd_item()">
+                <span>And cart total changes after removal of 2nd product.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="104"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could add different products to Wishlist</p>
+            <p class="text-sm">
+              <span>11:28:50 PM</span> / <span>00:00:05:477</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Logged user could add different products to Wishlist</h5>
+<span class='badge badge-success'>10.09.2022 11:28:50 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:28:55 PM</span>
+<span class='badge badge-default'>00:00:05:477</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=104</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log fail-bg mr-2">Fail</span>user adds two desktop products to his/her wishlist.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Desktops_option()">
+                <span>And user press on Desktops option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D10_wishList.user_clicks_on_add_to_wishlist_button_for_2nd_product()">
+                <span>And user clicks on add to wishlist button for 2nd product.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D10_wishList.product_has_been_added_to_wishlist_message_displayed()">
+                <span>And product has been added to wishlist message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D10_wishList.user_clicks_on_add_to_wishlist_button_for_3rd_product()">
+                <span>And user clicks on add to wishlist button for 3rd product.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D10_wishList.product_has_been_added_to_wishlist_message_displayed()">
+                <span>And product has been added to wishlist message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="TestCasesDefinitions.D10_wishList.user_press_on_wishlist_in_header()">
+                <span>Then user press on wishlist in webpage header.</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="wishlist-label">...</span> is not clickable at point (1156, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ISLAMZAKY-PC', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_345'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b73d5db7e9171163bc9e46348b2be9b0, clickElement {id=73f8c400-01a5-44e0-804b-69740951fa6a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ISLAMZ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64538/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b73d5db7e9171163bc9e46348b2be9b0)] -> css selector: span[class="wishlist-label"]]
+Session ID: b73d5db7e9171163bc9e46348b2be9b0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at TestCasesDefinitions.D10_wishList.user_press_on_wishlist_in_header(D10_wishList.java:48)
+	at ✽.user press on wishlist in webpage header.(file:///D:/ProjMinaFWDAuto/src/test/resources/Features/F10-%20Wishlist.feature:20)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D10_wishList.webpage_redirects_to_wishlist()">
+                <span>And webpage redirects to wishlist.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D10_wishList.second_product_is_Displayed()">
+                <span>And 2nd product is displayed.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D10_wishList.third_product_is_Displayed()">
+                <span>And 3rd product is displayed.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D10_wishList.user_removes_2nd_product_from_wishlist()">
+                <span>Then user removes 2nd product from wishlist.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D10_wishList.second_product_is_removed_from_wishlist()">
+                <span>And 2nd product is removed from wishlist.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="118"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logged user could add different products to compare list</p>
+            <p class="text-sm">
+              <span>11:28:55 PM</span> / <span>00:00:05:935</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logged user could add different products to compare list</h5>
+<span class='badge badge-success'>10.09.2022 11:28:55 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:29:01 PM</span>
+<span class='badge badge-default'>00:00:05:935</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=118</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="119"><span class="badge log pass-bg mr-2">Pass</span>Logged user could add 2nd and 3rd computer desktops to his/her compare list.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Desktops_option()">
+                <span>And user press on Desktops option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.user_press_on_2nd_product_add_to_compare_list_button()">
+                <span>And user press on 2nd product add to compare list button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.product_has_been_added_to_compare_list_message_displayed()">
+                <span>Then product has been added to compare list message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.user_press_on_3rd_product_add_to_compare_list_button()">
+                <span>And user press on 3rd product add to compare list button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.product_has_been_added_to_compare_list_message_displayed()">
+                <span>Then product has been added to compare list message displayed.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.user_press_on_product_comparison_in_bar_notification_message()">
+                <span>And user press on product comparison in bar notification message.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.user_is_redirected_to_compare_products_webpage()">
+                <span>Then user is redirected to compare products webpage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.second_product_is_displayed_in_compare_list()">
+                <span>And 2nd product is displayed in compare list.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D11_compareList.third_product_is_displayed_in_compare_list()">
+                <span>And 3rd product is displayed in compare list.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="130"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Create successful Order</p>
+            <p class="text-sm">
+              <span>11:29:01 PM</span> / <span>00:00:03:553</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Create successful Order</h5>
+<span class='badge badge-success'>10.09.2022 11:29:01 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:29:05 PM</span>
+<span class='badge badge-default'>00:00:03:553</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=130</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="131"><span class="badge log fail-bg mr-2">Fail</span>Logged user could make a successful order.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Computers_from_homepage()">
+                <span>And user press on Computers from homepage.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D06_categories.user_press_on_Desktops_option()">
+                <span>And user press on Desktops option.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_add_to_cart_on_2nd_product_choice_twice()">
+                <span>And user press add to cart on 2nd product choice twice.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="TestCasesDefinitions.D09_shoppingCart.product_has_been_added_to_cart_message_displayed()">
+                <span>And product has been added to cart message displayed.</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at TestCasesDefinitions.D09_shoppingCart.product_has_been_added_to_cart_message_displayed(D09_shoppingCart.java:33)
+	at ✽.product has been added to cart message displayed.(file:///D:/ProjMinaFWDAuto/src/test/resources/Features/F12-%20SuccessfulOrder.feature:18)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_add_to_cart_on_the_3rd_product_choice()">
+                <span>And user press add to cart on the 3rd product choice.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D09_shoppingCart.product_has_been_added_to_cart_message_displayed()">
+                <span>And product has been added to cart message displayed.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D09_shoppingCart.user_press_on_shopping_cart_in_header()">
+                <span>And user press on shopping cart in header.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_agree_with_the_terms_of_service_checkbox()">
+                <span>And user press on agree with the terms of service checkbox.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_checkout_button()">
+                <span>And user press on checkout button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_is_redirected_to_checkout_webpage()">
+                <span>Then user is redirected to checkout webpage.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_selects_Country_as_Egypt()">
+                <span>And user selects Country as Egypt.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_enters_Cairo_as_City()">
+                <span>And user enters Cairo as City.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_enters_his_her_address()">
+                <span>And user enters his or her address.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_enters_zip_or_postal_code()">
+                <span>And user enters zip or postal code.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_enters_his_or_her_phone_number()">
+                <span>And user enters his or her phone number.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_shipping_address_continue_button()">
+                <span>And user press on shipping address continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_shipping_method_continue_button()">
+                <span>And user press on shipping method continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_payment_method_continue_button()">
+                <span>And user press on payment method continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_payment_information_continue_button()">
+                <span>And user press on payment information continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_press_on_confirm_button_to_confirm_the_order()">
+                <span>And user press on confirm button to confirm the order.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.user_is_redirected_to_checkout_completed_webpage()">
+                <span>Then user is redirected to checkout completed webpage.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D12_successfulOrder.order_proceeded_successfully_message_appears()">
+                <span>And order proceeded successfully message appears.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="154"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Follow us pages</p>
+            <p class="text-sm">
+              <span>11:29:05 PM</span> / <span>00:00:15:189</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Follow us pages</h5>
+<span class='badge badge-success'>10.09.2022 11:29:05 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:29:20 PM</span>
+<span class='badge badge-default'>00:00:15:189</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=154</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="155"><span class="badge log pass-bg mr-2">Pass</span>user open follow us pages.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.user_press_on_facebookLink()">
+                <span>And user press on facebook link.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.facebook_open()">
+                <span>Then facebook opens in new tab.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.user_press_on_twitterLink()">
+                <span>And user press on twitter link.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.twitter_open()">
+                <span>Then twitter opens in new tab.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.user_press_on_rssLink()">
+                <span>And user press on rss link.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.rss_open()">
+                <span>Then rss opens in new tab.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.user_press_on_youtubeLink()">
+                <span>And user press on youtube link.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="TestCasesDefinitions.D13_followUs.youtube_open()">
+                <span>Then youtube opens in new tab.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="164"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User could access slider items</p>
+            <p class="text-sm">
+              <span>11:29:20 PM</span> / <span>00:00:04:106</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User could access slider items</h5>
+<span class='badge badge-success'>10.09.2022 11:29:20 PM</span>
+<span class='badge badge-danger'>10.09.2022 11:29:24 PM</span>
+<span class='badge badge-default'>00:00:04:106</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=164</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="165"><span class="badge log fail-bg mr-2">Fail</span>User clicks on first slider link.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="TestCasesDefinitions.D14_homeSliders.user_press_on_firstSlider()">
+                <span>When User clicks on first slider button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@rel="0"]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ISLAMZAKY-PC', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_345'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b73d5db7e9171163bc9e46348b2be9b0, findElement {using=xpath, value=//a[@rel="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ISLAMZ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64538/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b73d5db7e9171163bc9e46348b2be9b0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at nopCommercePages.P01_homePage.firstSliderButton(P01_homePage.java:58)
+	at TestCasesDefinitions.D14_homeSliders.user_press_on_firstSlider(D14_homeSliders.java:17)
+	at ✽.User clicks on first slider button(file:///D:/ProjMinaFWDAuto/src/test/resources/Features/F14-%20HomeSlider.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D14_homeSliders.click_Ft_homePage()">
+                <span>And User click on first slider link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D14_homeSliders.ft_homePage_Page()">
+                <span>Then User redirected to first slider link</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="169"><span class="badge log fail-bg mr-2">Fail</span>User clicks on second slider link.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="TestCasesDefinitions.D14_homeSliders.select_sec_homePageBtn()">
+                <span>When User select the second slider button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@rel="1"]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ISLAMZAKY-PC', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_345'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b73d5db7e9171163bc9e46348b2be9b0, findElement {using=xpath, value=//a[@rel="1"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ISLAMZ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64538/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b73d5db7e9171163bc9e46348b2be9b0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at nopCommercePages.P01_homePage.secondSliderButton(P01_homePage.java:66)
+	at TestCasesDefinitions.D14_homeSliders.select_sec_homePageBtn(D14_homeSliders.java:30)
+	at ✽.User select the second slider button(file:///D:/ProjMinaFWDAuto/src/test/resources/Features/F14-%20HomeSlider.feature:15)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D14_homeSliders.click_sec_homePage()">
+                <span>And User click on second slider link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="TestCasesDefinitions.D14_homeSliders.sec_homePage_Page()">
+                <span>Then User is redirected to second slider link</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='130' id='135'>And product has been added to cart message displayed.</a>
+<div class="">
+<span class="badge badge-default">Create successful Order.Logged user could make a successful order..And product has been added to cart message displayed.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='164' id='166'>When User clicks on first slider button</a>
+<div class="">
+<span class="badge badge-default">User could access slider items.User clicks on first slider link..When User clicks on first slider button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='164' id='170'>When User select the second slider button</a>
+<div class="">
+<span class="badge badge-default">User could access slider items.User clicks on second slider link..When User select the second slider button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:28:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='112'>Then user press on wishlist in webpage header.</a>
+<div class="">
+<span class="badge badge-default">Logged user could add different products to Wishlist.user adds two desktop products to his/her wishlist..Then user press on wishlist in webpage header.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>14</span>
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@MyRegression</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MyRegression</h4>
+<span status="pass" class='badge log pass-bg'>14 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>user registers with valid data.</a>
+<div class="">
+<span class="badge badge-default">User could register with valid data.user registers with valid data.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>user registers with invalid password.</a>
+<div class="">
+<span class="badge badge-default">User could register with valid data.user registers with invalid password.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='26'>user login with valid data (valid email & password).</a>
+<div class="">
+<span class="badge badge-default">user should be able to login to the website..user login with valid data (valid email & password).</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='33'>user login with invalid data (invalid email & password).</a>
+<div class="">
+<span class="badge badge-default">user should be able to login to the website..user login with invalid data (invalid email & password).</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='40'>user enters a valid registered email address.</a>
+<div class="">
+<span class="badge badge-default">User could reset his/her password successfully.user enters a valid registered email address.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='45'>user enters invalid not registered email address.</a>
+<div class="">
+<span class="badge badge-default">User could reset his/her password successfully.user enters invalid not registered email address.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='51'>logged user should be able to search for any product.</a>
+<div class="">
+<span class="badge badge-default">Logged User could search for any product.logged user should be able to search for any product.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='56'>logged user should be able to change currency from US Dollars to Euro & back.</a>
+<div class="">
+<span class="badge badge-default">Logged User could switch between currencies US-Euro.logged user should be able to change currency from US Dollars to Euro & back.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='65' id='66'>logged user could select category (Computers) then subcategory (Desktops)</a>
+<div class="">
+<span class="badge badge-default">Logged user could select different Categories.logged user could select category (Computers) then subcategory (Desktops)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='71' id='72'>logged user could filter with red colour in Shoes Subcategory.</a>
+<div class="">
+<span class="badge badge-default">Logged user could filter with color.logged user could filter with red colour in Shoes Subcategory.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:27:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='77' id='78'>logged user could select different tags.</a>
+<div class="">
+<span class="badge badge-default">Logged user could select different tags..logged user could select different tags.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:28:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='86' id='87'>Logged user add 2 products to shopping cart</a>
+<div class="">
+<span class="badge badge-default">Logged user could add different products to Shopping cart..Logged user add 2 products to shopping cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:28:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='105'>user adds two desktop products to his/her wishlist.</a>
+<div class="">
+<span class="badge badge-default">Logged user could add different products to Wishlist.user adds two desktop products to his/her wishlist.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:28:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='118' id='119'>Logged user could add 2nd and 3rd computer desktops to his/her compare list.</a>
+<div class="">
+<span class="badge badge-default">Logged user could add different products to compare list.Logged user could add 2nd and 3rd computer desktops to his/her compare list.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='130' id='131'>Logged user could make a successful order.</a>
+<div class="">
+<span class="badge badge-default">Create successful Order.Logged user could make a successful order.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:29:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='154' id='155'>user open follow us pages.</a>
+<div class="">
+<span class="badge badge-default">Follow us pages.user open follow us pages.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='164' id='165'>User clicks on first slider link.</a>
+<div class="">
+<span class="badge badge-default">User could access slider items.User clicks on first slider link.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:29:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='164' id='169'>User clicks on second slider link.</a>
+<div class="">
+<span class="badge badge-default">User could access slider items.User clicks on second slider link.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 9, 2022 11:26:30 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 9, 2022 11:29:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>11</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='78%'>
+<b>11</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='21%'><b>3</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'><b>14</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='22%'><b>4</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'><b>109</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>4</b> steps failed,
+<b>27</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"User could register with valid data":26.253,"user should be able to login to the website.":11.245,"User could reset his/her password successfully":2.957,"Logged User could search for any product":1.125,"Logged User could switch between currencies US-Euro":7.216,"Logged user could select different Categories":1.67,"Logged user could filter with color":1.701,"Logged user could select different tags.":34.773,"Logged user could add different products to Shopping cart.":45.68,"Logged user could add different products to Wishlist":5.477,"Logged user could add different products to compare list":5.935,"Create successful Order":3.553,"Follow us pages":15.189,"User could access slider items":4.106
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@MyRegression</td>
+<td>14</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>77.778%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 11,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 14,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 109,
+failGrandChild: 4,
+warningGrandChild: 0,
+skipGrandChild: 27,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
